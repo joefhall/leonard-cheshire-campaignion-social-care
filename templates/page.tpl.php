@@ -80,30 +80,30 @@
       </div>
     <?php endif; ?>
 
-    <header id="header" role="banner">
-
-      <div class="section middle clearfix">
-
-      <?php if ($logo): ?>
-        <a href="https://www.leonardcheshire.org" title="<?php print t('Visit the Leonard Cheshire Disability homepage!'); ?>" rel="www.leonardcheshire.org" id="logo">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Leonard Cheshire Disability'); ?>" />
-        </a>
-      <?php endif; ?>
-
-
-      <?php print render($page['header']); ?>
-
-      <?php if ($main_menu): ?>
-        <nav id="main-menu" role="navigation">
-          <h2 class="element-invisible"><?php echo t('Main menu'); ?></h2>
-          <?php $main_menu_output = menu_tree_output(menu_tree_all_data('main-menu')); ?>
-          <?php echo drupal_render($main_menu_output); ?>
-        </nav><!-- /#navigation -->
-      <?php endif; ?>
-
-      </div><!-- /.section -->
-
-    </header><!-- /#header -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-lg-1">
+        </div>
+        
+        <div class="col-xs-12 col-sm-2">
+          <a href="https://www.leonardcheshire.org/"><img src="https://socialcare.leonardcheshire.org/images/logo.png" alt="Leonard Cheshire logo" class="bigbottommargin" id="logo"></a>
+        </div>
+        
+        <div class="col-xs-12 col-sm-9 col-lg-7 pink-background rounded-corners-bottom">
+          <div class="row">
+            <div class="col-xs-2 col-sm-1">
+              <div class="clock"></div>
+            </div>
+            <div class="col-xs-8 col-lg-9">
+              <h1 class="bigtopbottommargin white-text"><strong>15 minute personal care is destroying lives</strong></h1>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-lg-1">
+        </div>
+      </div>
+    </div>
 
   <?php if ($page['banner']): ?>
     <div id="banner">

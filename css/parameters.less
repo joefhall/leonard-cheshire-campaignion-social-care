@@ -1,0 +1,142 @@
+/* ########## parameters.less #######################################
+ *
+ * This file defines variables used in boilerplate, layout.less, style.less and
+ * possibly other files too. It has to be imported in these files.
+ *
+ * Use the variables in your style.less if they are already defined.
+ * But it's perfectly ok not to use variables for everything. No need to define
+ * additional variables if you are not going to use them alot...
+ */
+
+/* ==================================================================
+ * Grid & Breakpoints
+ * ================================================================== */
+
+/* ---------- basic grid -------------------------------------------- */
+
+/* This is the widest that middle or a grid-container will go */
+@max-width: 1200px;
+
+/* This value controls how much padding each grid-x unit recieves on the left/right. */
+@gutter-half: 10px;
+
+/* This values set the width of the sidebars */
+@sidebar-first-width: 20%;
+@sidebar-second-width: 45%;
+
+
+/* ---------- breakpoints ------------------------------------------- */
+
+// if you change the breakpoints, make sure to change them in js too!
+
+@tablet-breakpoint: 520px;
+@desktop-breakpoint: 780px;
+@big-breakpoint: 1150px;
+@huge-breakpoint: 1600px;
+
+/* ---------- media query variables from breakpoints ---------------- */
+
+@tablet: ~"screen and (min-width: @{tablet-breakpoint})";
+@desktop: ~"screen and (min-width: @{desktop-breakpoint})";
+@big: ~"screen and (min-width: @{big-breakpoint})";
+@huge: ~"screen and (min-width: @{huge-breakpoint})";
+
+
+/* ==================================================================
+ * happy color collection
+ * ================================================================== */
+
+@fmain:   #303030; /* used for main font "grey", applies to all text through boilerplate */
+@mywhite: #fff; /* white is used frequently, so mywhite should change consistently */
+@myblack: #303033;
+@fbright: lighten(@fmain, 20%);
+@fprimary_color: darken(@primary_color, 5%);
+
+/* main colors */
+@primary_color: #ED245F; /* red-pink */
+@secondary_color: #009a93;
+
+/* heading colors */
+@heading_color: @primary_color;
+@heading_second_color: @fprimary_color;
+
+/* link colors */
+@link_color: @primary_color;
+@link_hover_color: darken(@link_color, 10%);
+@link_active_color: lighten(@link_color, 5%);
+
+@button_color: @primary_color;
+@focus_color: @secondary_color;
+
+/* messages and moods */
+@error: #ef4340; /* this color tells you that you've done something wrong */
+@good: #a9ef40; /* this color indicates that everything is ok */
+
+/* backgrounds and background colors  */
+@background: #fff; /* bright theme */
+@background_color_light: @background;
+
+@background_grey_light: #f2f1ef;
+@background_grey_light_border: darken(@background_grey_light, 5%);
+
+@background_grey: #e9e8e6; /* bright theme */
+@background_grey_gradient: url('../img/gradient_grey.png') repeat-x bottom left #ecebe9; /* background gradient that works with @background_grey */
+@background_grey_border: darken(@background_grey, 5%);
+
+@header_background: #E9E9E9;
+@header_border_color: @background_grey_border;
+@logo_has_border: false;
+
+/* progress bar */
+@progressbar_color: @primary_color;
+@thermometer_color: @progressbar_color;
+@progressbar_height: 15px;
+
+/* main menu links */
+@main_menu_link_color: #515151;
+@main_menu_link_hover_color: #949494;
+@main_menu_link_active_color: #949494;
+@main_menu_item_bg_color: #f1f1f1;
+@main_menu_item_hover_bg_color: lighten(@main_menu_item_bg_color,10%);
+@main_menu_item_active_bg_color: darken(@main_menu_item_bg_color, 15%);
+@main_menu_item_border_color: transparent;
+@main_menu_item_hover_border_color: darken(@main_menu_item_bg_color, 4%);
+@main_menu_item_active_border_color: darken(@main_menu_item_bg_color,5%);
+
+/* footer menu links */
+@footer_menu_link_color: @link_color;
+@footer_menu_link_hover_color: @link_hover_color;
+@footer_menu_link_active_color: @link_active_color;
+
+/* mobile menu */
+@mobile_menu_width: 270px;
+@mobile_menu_padding: 15px;
+
+/* language switcher */
+@language_switcher_background: lighten(@header_background, 5%);
+@language_switcher_position: right;
+
+
+/* ==================================================================
+ * font sizes & typographic elements
+ * ================================================================== */
+
+/* ---------- baseline grid ----------------------------------------- */
+
+@fontsize: 100%;
+@basefontsize: 16;
+@baselineheight: 24;
+// default 1.5em = 24px on 100% font size (16px)
+@oneline: (@baselineheight/@basefontsize)*1em;
+
+/* ---------- fonts ------------------------------------------------- */
+
+@serif: Georgia, Times, "Times New Roman", serif ;
+@sans: "Trebuchet MS", Arial, Helvetica, sans-serif;
+@sansb: @sans;
+
+@mainfont: @sans;
+@codefont: @sans;
+@headingfont: @sansb;
+
+@smallsize: .75;

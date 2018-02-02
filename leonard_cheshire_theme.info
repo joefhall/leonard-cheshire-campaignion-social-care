@@ -1,0 +1,36 @@
+; Theme Info -----------------------------------------------------------------
+; required information about the theme
+
+name = Leonard Cheshire Theme
+description = Based on the simple and clean Campaignion theme
+;screenshot = screenshot.jpg
+core = 7.x
+base theme = simplicity
+
+; Regions --------------------------------------------------------------------
+; these content regions are available for block placement
+
+; these are the stock regions
+regions[top_bar] = Top bar
+regions[header] = Header
+regions[help] = Help
+regions[banner] = Banner
+regions[featured] = Featured
+
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[bottom] = Bottom
+regions[footer] = Footer
+
+regions[widget] = Widget
+
+; main CSS files -------------------------------------------------------------
+
+stylesheets[screen][] = css/maintenance-page.css
+stylesheets[screen][] = css/leonard-cheshire-style.less
+stylesheets[screen][] = css/mail.css

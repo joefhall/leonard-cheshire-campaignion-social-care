@@ -1,8 +1,8 @@
 ; Theme Info -----------------------------------------------------------------
 ; required information about the theme
 
-name = Leonard Cheshire Theme
-description = Based on the simple and clean Campaignion theme
+name = Leonard Cheshire Social Care Theme
+description = Based on the simple and clean Campaignion theme, specific to the social care actions in 2018
 ;screenshot = screenshot.jpg
 core = 7.x
 base theme = simplicity

@@ -59,7 +59,7 @@ $html_attributes = "lang=\"{$language->language}\" dir=\"{$language->dir}\" {$rd
 
   <?php print $styles; ?>
   
-  <link type="text/css" rel="stylesheet" href="https://socialcare.leonardcheshire.org/campaignion.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://socialcare.leonardcheshire.org/css/campaignion.css" media="all">
 
   <?php print $scripts; ?>
 

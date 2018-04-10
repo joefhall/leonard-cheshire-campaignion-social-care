@@ -59,6 +59,7 @@ $html_attributes = "lang=\"{$language->language}\" dir=\"{$language->dir}\" {$rd
 
   <?php print $styles; ?>
   
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="https://socialcare.leonardcheshire.org/css/campaignion.css" media="all">
 
   <?php print $scripts; ?>

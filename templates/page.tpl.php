@@ -86,16 +86,16 @@
         </div>
         
         <div class="col-xs-12 col-sm-4">
-          <a href="https://www.leonardcheshire.org/"><img src="https://socialcare.leonardcheshire.org/images/leonard-cheshire-centenary-logo-inspiration.png" alt="Leonard Cheshire logo" class="bigbottommargin" id="logo"></a>
+          <a href="https://www.leonardcheshire.org/"><img src="https://socialcare.leonardcheshire.org/images/leonard-cheshire-logo.png" alt="Leonard Cheshire logo" class="bigbottommargin" id="logo"></a>
         </div>
         
-        <div class="col-xs-12 col-sm-7 col-lg-5 pink-background rounded-corners-bottom">
+        <div class="col-xs-12 col-sm-7 col-lg-5 yellow-background deep-purple-text rounded-corners-bottom">
           <div class="row">
             <div class="col-xs-1">
               <div class="clock"></div>
             </div>
             <div class="col-xs-9">
-              <h1 class="bigtopbottommargin white-text"><strong>15 minute personal care is destroying lives</strong></h1>
+              <h1 class="bigtopbottommargin"><strong>15 minute personal care is destroying lives</strong></h1>
             </div>
           </div>
         </div>

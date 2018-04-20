@@ -86,7 +86,7 @@
         </div>
         
         <div class="col-xs-12 col-sm-4">
-          <a href="https://www.leonardcheshire.org/"><img src="https://socialcare.leonardcheshire.org/images/leonard-cheshire-logo.png" alt="Leonard Cheshire logo" class="bigbottommargin" id="logo"></a>
+          <a href="https://www.leonardcheshire.org/"><img src="https://socialcare.leonardcheshire.org/images/leonard-cheshire-logo-new.png" alt="Leonard Cheshire logo" class="bigbottommargin" id="logo"></a>
         </div>
         
         <div class="col-xs-12 col-sm-7 col-lg-5 yellow-background deep-purple-text rounded-corners-bottom">
